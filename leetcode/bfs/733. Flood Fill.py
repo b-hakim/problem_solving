@@ -23,7 +23,7 @@ class Solution:
                     continue
 
                 if image[y][x] == v and not visited[y][x]:
-                    visited[y][x] = True
+                    visited[y][x] =  True
                     queue.appendleft((y, x))
 
         return image
