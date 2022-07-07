@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution_TLE:
     def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:
         def DFS(root, prev):
